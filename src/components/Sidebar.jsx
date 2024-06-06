@@ -9,8 +9,8 @@ const Sidebar = ({onSelectPage, selectedPage}) => {
       <button onClick={() => setTopple(!topple)}>
         {topple ? 'Expand' : 'Topple'}
       </button>
-      <button>
-
+      <button onClick={() => setMode(!mode)}>
+        {mode ? 'Light Mode' : 'Dark Mode'}
       </button>
       <nav>
         <ul>
