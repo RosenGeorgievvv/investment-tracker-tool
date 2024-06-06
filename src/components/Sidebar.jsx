@@ -1,10 +1,13 @@
 import { useState } from "react";
 
-const Sidebar = () => {
+const Sidebar = ({onSelectPage, selectedPage}) => {
+    const [topple, setTopple] = useState(false);
+    const [mode, setMode] = useState(false);
+
   return (
     <div>
-      <button>
-
+      <button onClick={() => setTopple(!topple)}>
+        {topple ? 'Expand' : 'Topple'}
       </button>
       <button>
 
