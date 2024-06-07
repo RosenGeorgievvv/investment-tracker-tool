@@ -26,7 +26,7 @@ const App = () => {
           isSidebarOpen={isSidebarOpen} 
           setIsSidebarOpen={setIsSidebarOpen} 
         />
-        <div className={`transition-all duration-300 ${isSidebarOpen ? 'ml-64' : 'ml-16'} p-4`}>
+        <div className={`transition-all duration-400 ${isSidebarOpen ? 'ml-64' : 'ml-16'} p-4`}>
           <Routes>
             <Route path="/investments" element={<Investments />} />
             <Route path="/settings" element={<Settings />} />

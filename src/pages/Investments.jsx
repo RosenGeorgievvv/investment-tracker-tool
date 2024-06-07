@@ -1,8 +1,14 @@
-const Investments = () =>{
+import React, { useState, useEffect } from "react";
 
+const url = "https://interviews.deno.dev";
 
-    return(
-        <h2>Investment</h2>
-    )
-}
-export default Investments;
+const Investments = () => {
+  
+    return (
+      <div>
+        <h1>Set data</h1>
+      </div>
+    );
+  };
+  
+  export default Investments;
