@@ -1,14 +1,16 @@
-import React, { useState, useEffect } from "react";
-
-const url = "https://interviews.deno.dev";
-
 const Investments = () => {
-  
-    return (
-      <div>
-        <h1>Set data</h1>
-      </div>
-    );
+  const fetchData = async () => {
+    const data = await fetch("https://interviews.deno.dev/asset/crypto");
+    const response = await data.json();
+    console.log(response);
   };
-  
-  export default Investments;
+
+  fetchData();
+  return (
+    <div>
+      <h1>Hi</h1>
+    </div>
+  );
+};
+
+export default Investments;
