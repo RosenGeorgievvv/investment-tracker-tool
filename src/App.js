@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 import SideNavBar from './components/SideNavBar';
-import Investments from './pages/Investments';
+import Dashboard from './pages/Dashboard';
 import Settings from './pages/Settings';
 
 const App = () => {
@@ -28,7 +28,7 @@ const App = () => {
         />
         <div className={`transition-all duration-400 ${isSidebarOpen ? 'ml-64' : 'ml-16'} p-4`}>
           <Routes>
-            <Route path="/investments" element={<Investments />} />
+            <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/settings" element={<Settings />} />
           </Routes>
         </div>

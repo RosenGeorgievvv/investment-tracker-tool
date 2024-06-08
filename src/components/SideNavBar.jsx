@@ -13,7 +13,7 @@ const SideNavBar = ({ darkMode, setDarkMode, isSidebarOpen, setIsSidebarOpen }) 
           </button>
         </div>
         <nav className="flex-grow">
-          <Link to="/investments" className="flex items-center py-2.5 px-4 my-1 rounded hover:bg-sidebarHover dark:hover:bg-gray-700 transition-colors duration-200 text-white">
+          <Link to="/dashboard" className="flex items-center py-2.5 px-4 my-1 rounded hover:bg-sidebarHover dark:hover:bg-gray-700 transition-colors duration-200 text-white">
             <FaHome className={`${isSidebarOpen ? "text-xl" : "text-3xl"}`} />
             {isSidebarOpen && <span>Investments</span>}
           </Link>
