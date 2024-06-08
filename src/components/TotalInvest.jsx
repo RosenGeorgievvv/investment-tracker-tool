@@ -31,6 +31,7 @@ const TotalInvestedChart = () => {
     }
   }, []);
 
+  //Highcharts configurations based on the official documentation
   const options = {
     chart: {
       type: 'line',
