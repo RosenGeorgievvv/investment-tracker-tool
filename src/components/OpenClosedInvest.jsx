@@ -9,7 +9,6 @@ const OpenClosedInvestmentsChart = () => {
 
   useEffect(() => {
     if (data && data.marketPrices) {
-      console.log('Data Loaded:', data.marketPrices);
 
       let openCount = 0;
       let closedCount = 0;
@@ -25,10 +24,6 @@ const OpenClosedInvestmentsChart = () => {
           });
         }
       });
-
-      console.log('Open Investments:', openCount);
-      console.log('Closed Investments:', closedCount);
-
       setOpenInvestments(openCount);
       setClosedInvestments(closedCount);
     } else {
@@ -41,7 +36,7 @@ const OpenClosedInvestmentsChart = () => {
       type: 'column',
     },
     title: {
-      text: 'Number of Open and Closed Investments',
+      text: 'Open and Closed Investments',
     },
     xAxis: {
       categories: ['Open', 'Closed'],

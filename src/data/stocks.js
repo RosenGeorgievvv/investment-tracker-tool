@@ -1,4 +1,4 @@
-module.exports = [
+module.exports =
   {
     marketPrices: [
       {
@@ -7705,5 +7705,4 @@ module.exports = [
         closed: false,
       },
     ],
-  },
-];
+  };

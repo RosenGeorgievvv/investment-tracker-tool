@@ -1,4 +1,5 @@
 import OpenClosedInvestmentsChart from "../components/OpenClosedInvest";
+import PortfolioDonutChart from "../components/PortfolioPieChart";
 import TotalInvestedChart from "../components/TotalInvest";
 
 
@@ -7,6 +8,7 @@ const Investments = () => {
     <div>
       <TotalInvestedChart />
       <OpenClosedInvestmentsChart />
+      <PortfolioDonutChart />
     </div>
   );
 };

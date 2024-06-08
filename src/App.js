@@ -28,7 +28,7 @@ const App = () => {
         />
         <div className={`transition-all duration-400 ${isSidebarOpen ? 'ml-64' : 'ml-16'} p-4`}>
           <Routes>
-            <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/dashboard" element={<Dashboard  />} />
             <Route path="/settings" element={<Settings />} />
           </Routes>
         </div>
