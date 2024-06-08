@@ -70,5 +70,4 @@ const TotalInvestedChart = () => {
   );
 };
 
-
 export default TotalInvestedChart;
