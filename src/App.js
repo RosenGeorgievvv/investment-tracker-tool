@@ -20,12 +20,7 @@ const App = () => {
   return (
     <div className={`min-h-screen ${darkMode ? 'bg-darkGray text-white' : 'bg-white text-black'}`}>
       <Router>
-        <SideNavBar 
-          darkMode={darkMode} 
-          setDarkMode={setDarkMode} 
-          isSidebarOpen={isSidebarOpen} 
-          setIsSidebarOpen={setIsSidebarOpen} 
-        />
+        <SideNavBar darkMode={darkMode} setDarkMode={setDarkMode} isSidebarOpen={isSidebarOpen} setIsSidebarOpen={setIsSidebarOpen} />
         <div className={`transition-all duration-400 ${isSidebarOpen ? 'ml-64' : 'ml-16'} p-4`}>
           <Routes>
             <Route path="/dashboard" element={<Dashboard  />} />
