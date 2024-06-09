@@ -12,7 +12,7 @@ const InvestmentCard = () => {
     }));
     return acc.concat(transactions);
   }, []);
-
+ 
   const [investments, setInvestments] = useState(initialInvestments);
   const [newInvestment, setNewInvestment] = useState({
     type: "",
@@ -70,7 +70,7 @@ const InvestmentCard = () => {
             <label className="block text-sm font-medium text-gray-700">
               Type of Investment
             </label>
-            <input
+            <input 
               type="text"
               name="type"
               value={newInvestment.type}
