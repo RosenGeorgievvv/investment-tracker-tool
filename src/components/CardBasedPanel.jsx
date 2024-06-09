@@ -7,7 +7,6 @@ const InvestmentCard = () => {
       ...transaction,
       id: `${investment.name}-${index}`,
       name: investment.name,
-      type: investment.iconUrl ? "Company" : "Commodity",
       status: transaction.open ? "Open" : "Closed",
     }));
     return acc.concat(transactions);
