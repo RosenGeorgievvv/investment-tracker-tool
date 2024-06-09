@@ -12,7 +12,7 @@ const InvestmentCard = () => {
     }));
     return acc.concat(transactions);
   }, []);
-    
+  
   const [investments, setInvestments] = useState(initialInvestments);
   const [newInvestment, setNewInvestment] = useState({
     type: "",
