@@ -14,12 +14,12 @@ const SideNavBar = ({ darkMode, setDarkMode, isSidebarOpen, setIsSidebarOpen }) 
         </div>
         <nav className="flex-grow">
           <Link to="/dashboard" className="flex items-center py-2.5 px-4 my-1 rounded hover:bg-sidebarHover dark:hover:bg-gray-700 transition-colors duration-200 text-white">
-            <FaHome className={`${isSidebarOpen ? "text-xl" : "text-3xl"}`} />
-            {isSidebarOpen && <span>Investments</span>}
+            <FaHome className={`${isSidebarOpen ? "text-2xl" : "text-3xl"}`} />
+            {isSidebarOpen && <span className="ml-3">Investments</span>}
           </Link>
           <Link to="/settings" className="flex items-center py-2.5 px-4 my-1 rounded hover:bg-sidebarHover dark:hover:bg-gray-700 transition-colors duration-200 text-white">
-            <FaCog className={`${isSidebarOpen ? "text-xl" : "text-3xl"}`} />
-            {isSidebarOpen && <span>Settings</span>}
+            <FaCog className={`${isSidebarOpen ? "text-2xl" : "text-3xl"}`} />
+            {isSidebarOpen && <span className="ml-3">Settings</span>}
           </Link>
         </nav>
         <div className="mt-auto p-4">

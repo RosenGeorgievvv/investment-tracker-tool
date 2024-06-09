@@ -65,14 +65,14 @@ const InvestmentCard = () => {
       <div className="max-w-3xl mx-auto bg-white p-6 rounded-lg shadow-lg mb-8">
         <h2 className="text-2xl font-bold mb-4">Add New Investment</h2>
         <form onSubmit={handleSubmit} className="space-y-4">
-          <div>
+        <div>
             <label className="block text-sm font-medium text-gray-700">
-              Type of Investment
+              Investment Name
             </label>
-            <input 
+            <input
               type="text"
-              name="type"
-              value={newInvestment.type}
+              name="name"
+              value={newInvestment.name}
               onChange={handleChange}
               className="mt-1 block w-full p-2 border border-gray-300 rounded-md"
               placeholder=""
@@ -92,12 +92,12 @@ const InvestmentCard = () => {
           </div>
           <div>
             <label className="block text-sm font-medium text-gray-700">
-              Investment Name
+              Type of Investment
             </label>
-            <input
+            <input 
               type="text"
-              name="name"
-              value={newInvestment.name}
+              name="type"
+              value={newInvestment.type}
               onChange={handleChange}
               className="mt-1 block w-full p-2 border border-gray-300 rounded-md"
               placeholder=""
