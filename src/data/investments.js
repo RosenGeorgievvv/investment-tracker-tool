@@ -1,4 +1,4 @@
-module.exports = {
+module.exports ={
   marketPrices: [
     {
       name: "DOT",
@@ -83,5 +83,143 @@ module.exports = {
         },
       ],
     },
+    {
+      name: "Gold",
+      iconUrl: "",
+      transactions: [
+        {
+          date: "31-03-2023",
+          balance: 15.272037461400032,
+          amount: 15.272037461400032,
+          open: true,
+        },
+        {
+          date: "26-04-2023",
+          balance: 37.1541712898761,
+          amount: 21.88213382847607,
+          open: true,
+        },
+        {
+          date: "09-06-2023",
+          balance: 64.15597709361464,
+          amount: 27.001805803738534,
+          open: true,
+        },
+        {
+          date: "20-07-2023",
+          balance: 57.09351471810139,
+          amount: -7.062462375513246,
+          open: false,
+        },
+        {
+          date: "11-08-2023",
+          balance: 21.36522176763878,
+          amount: -35.72829295046261,
+          open: false,
+        },
+        {
+          date: "20-09-2023",
+          balance: 39.80377500965164,
+          amount: 18.43855324201286,
+          open: true,
+        },
+        {
+          date: "05-10-2023",
+          balance: 33.02333110939318,
+          amount: -6.780443900258456,
+          open: false,
+        },
+        {
+          date: "03-11-2023",
+          balance: 58.814390124711935,
+          amount: 25.79105901531875,
+          open: true,
+        },
+        {
+          date: "09-12-2023",
+          balance: 0.37960313327361916,
+          amount: -58.434786991438315,
+          open: false,
+        },
+        {
+          date: "18-01-2024",
+          balance: 22.25841476183136,
+          amount: 21.87881162855774,
+          open: true,
+        },
+      ],
+    },
+    {
+      name: "Microsoft",
+      iconUrl: "/src/assets/icons/companies/microsoft.png",
+      transactions: [
+        {
+          date: "22-03-2023",
+          balance: 23.79845338407904,
+          amount: 23.79845338407904,
+          open: true,
+        },
+        {
+          date: "04-05-2023",
+          balance: 13.480646895315198,
+          amount: -10.317806488763841,
+          open: false,
+        },
+        {
+          date: "22-05-2023",
+          balance: 43.001539605740156,
+          amount: 29.52089271042496,
+          open: true,
+        },
+        {
+          date: "30-06-2023",
+          balance: 59.32752344391837,
+          amount: 16.325983838178217,
+          open: true,
+        },
+        {
+          date: "21-07-2023",
+          balance: 70.44251864876196,
+          amount: 11.11499520484358,
+          open: true,
+        },
+        {
+          date: "24-08-2023",
+          balance: 82.49367599010066,
+          amount: 12.051157341338694,
+          open: true,
+        },
+        {
+          date: "10-09-2023",
+          balance: 103.58295808180765,
+          amount: 21.08928209170699,
+          open: true,
+        },
+        {
+          date: "21-10-2023",
+          balance: 120.55320981990144,
+          amount: 16.970251738093793,
+          open: true,
+        },
+        {
+          date: "22-11-2023",
+          balance: 114.90079429114631,
+          amount: -5.6524155287551245,
+          open: false,
+        },
+        {
+          date: "30-12-2023",
+          balance: 137.1957467926892,
+          amount: 22.294952501542866,
+          open: true,
+        },
+        {
+          date: "30-01-2024",
+          balance: 164.89274006916605,
+          amount: 27.69699327647686,
+          open: true,
+        },
+      ],
+    },
   ],
-};
+}
