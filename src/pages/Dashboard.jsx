@@ -1,5 +1,5 @@
 import InvestmentCard from "../components/CardBasedPanel";
-import OpenClosedInvestmentsChart from "../components/OpenClosedInvest";
+import InvestmentStatus from "../components/OpenClosedInvest";
 import PortfolioDonutChart from "../components/PortfolioPieChart";
 import TotalInvestedChart from "../components/TotalInvest";
 
@@ -10,7 +10,7 @@ const Investments = () => {
         <TotalInvestedChart />
       </div>
       <div className="mb-4 p-6 bg-white border rounded-lg shadow-md">
-        <OpenClosedInvestmentsChart />
+        <InvestmentStatus />
       </div>
       <div className="mb-4 p-6 bg-white border rounded-lg shadow-md">
         <PortfolioDonutChart />
